@@ -14,3 +14,5 @@ RUN apt-get update && apt-get install -y vim curl ca-certificates && rm -rf /var
 ADD run.sh /run.sh
 
 USER nobody
+
+EXPOSE 5601
